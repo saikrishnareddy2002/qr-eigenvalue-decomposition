@@ -20,21 +20,7 @@
 
 This project presents a complete hardware implementation of the **QR Algorithm-based Eigenvalue Decomposition (EVD)** and **Singular Value Decomposition (SVD)** on a **Xilinx Zynq-7020 SoC (xc7z020clg400-1)**. The design employs **Modified Gram-Schmidt (MGS) orthogonalization** for numerically stable QR factorization, implemented using a **7-state one-hot Finite State Machine (FSM)** architecture. All arithmetic is performed in **IEEE-754 double-precision (64-bit) floating-point**, utilizing Xilinx Floating-Point IP cores (v7.1) for Add/Sub, Multiply, Divide, Square Root, and Compare operations. The design is synthesized and verified using Xilinx Vivado 2025.2, achieving a clock frequency of **100 MHz** with a convergence threshold of **10⁻⁸** on matrices up to size **N=6**.
 
----
 
-## Table of Contents
-
-- [Problem Statement](#problem-statement)
-- [Objectives](#objectives)
-- [Mathematical Background](#mathematical-background)
-- [Architecture & Design](#architecture--design)
-- [Tools & Technologies](#tools--technologies)
-- [Repository Structure](#repository-structure)
-- [Setup & Execution](#setup--execution)
-- [Post-Implementation Results](#post-implementation-results)
-- [Applications](#applications)
-- [Future Scope](#future-scope)
-- [Author](#author)
 
 ---
 
