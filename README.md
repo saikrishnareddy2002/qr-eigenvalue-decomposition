@@ -336,9 +336,7 @@ Eigenvalues converged successfully within tolerance `10⁻⁸`.
 
 **Sai Krishna Reddy**  
 M.Tech, VLSI Design  
-SRM Institute of Science and Technology (SRMIST), Kattankulatham  
-Registration No.: RA2412008010015  
-Supervisor: **Dr. Sudhanya P.**  
+ 
 
 📧 [GitHub: saikrishnareddy2002](https://github.com/saikrishnareddy2002)  
 🔗 [Project Repository](https://github.com/saikrishnareddy2002/qr-eigenvalue-decomposition)
