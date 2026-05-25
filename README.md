@@ -177,13 +177,6 @@ qr-eigenvalue-decomposition/
 │   ├── power_synthesis.rpt                     # Power estimate (synthesis)
 │   └── power_post_implementation.rpt           # Power report (post-impl)
 │
-├── figures/                                    # Waveform screenshots, block diagrams
-├── reports/                                    # Final project report (PDF)
-├── presentations/                              # Project presentation (PPTX)
-├── docs/
-│   └── SETUP_GUIDE.md                         # Vivado setup and simulation guide
-├── references/                                 # Research papers and references
-│
 ├── README.md
 ├── LICENSE
 ├── .gitignore
