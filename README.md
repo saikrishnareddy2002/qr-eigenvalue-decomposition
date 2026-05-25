@@ -10,7 +10,7 @@
 ![License](https://img.shields.io/badge/License-MIT-lightgrey?style=flat-square)
 
 **M.Tech Specialization Project | VLSI Design | SRMIST, Kattankulatham**  
-**Registration No.: RA2412008010015 | Supervisor: Dr. Sudhanya P.**
+
 
 </div>
 
