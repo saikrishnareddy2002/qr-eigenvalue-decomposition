@@ -1,0 +1,118 @@
+# ============================================================
+# .gitignore — QR Eigenvalue Decomposition FPGA Project
+# Covers: Vivado, Python, MATLAB, OS files
+# ============================================================
+
+# ── Vivado Project Cache & Generated Files ──────────────────
+*.cache/
+*.runs/
+*.hw/
+*.ip_user_files/
+*.sim/
+*.gen/
+*.str
+*.jou
+*.pb
+*.wdf
+*.xdc.bak
+*.dcp
+*.bit
+*.bin
+*.ltx
+*.log
+*.rpt.bak
+*.rpx
+*.vdi
+*.wpc
+*.xml
+dfx_runtime.txt
+htr.txt
+ISEWrap.*
+rundef.js
+runme.*
+__synthesis_is_complete__
+.Vivado_*
+.vivado.*
+.end.*
+.init_design.*
+.opt_design.*
+.place_design.*
+vivado_pid*.str
+
+# Keep only our hand-written reports (not generated)
+# results/*.rpt files are hand-copied — keep them
+
+# ── Vivado Simulation Artifacts ─────────────────────────────
+xsim.dir/
+*.wdb
+webtalk*.xml
+*.tcl.bak
+
+# ── Xilinx IP Generated Files (keep only .xci) ──────────────
+# We keep .xci (IP configuration) but not generated netlists
+*_sim_netlist.v
+*_sim_netlist.vhdl
+*_stub.v
+*_stub.vhdl
+floating_point_*/hdl/
+floating_point_*/sim/
+floating_point_*/synth/
+floating_point_*/doc/
+floating_point_*/demo_tb/
+*_ooc.xdc
+*_sv.sv
+glbl.v
+
+# ── Python ──────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+.Python
+env/
+venv/
+.env/
+.venv/
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+*.ipynb_checkpoints/
+.ipynb_checkpoints
+
+# ── MATLAB ──────────────────────────────────────────────────
+*.asv
+*.m~
+slprj/
+*.slxc
+*.mex*
+codegen/
+
+# ── OS / System Files ───────────────────────────────────────
+desktop.ini
+.DS_Store
+Thumbs.db
+ehthumbs.db
+*.lnk
+$RECYCLE.BIN/
+
+# ── Editor / IDE ─────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.bak
+*.tmp
+*.orig
+
+# ── Archives ─────────────────────────────────────────────────
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# ── Large Binary Files ───────────────────────────────────────
+*.dcp
+*.bit
+*.mcs

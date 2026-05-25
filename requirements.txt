@@ -1,0 +1,9 @@
+# ============================================================
+# requirements.txt — QR Eigenvalue Decomposition
+# Python reference implementation dependencies
+# Install: pip install -r requirements.txt
+# ============================================================
+
+numpy>=1.24.0
+scipy>=1.11.0       # optional: for verification against scipy.linalg.eig
+matplotlib>=3.7.0   # optional: for convergence plots
