@@ -111,6 +111,9 @@ The hardware design is organized as a five-stage pipeline controlled by a **7-st
 │  ● floating_point_div      ● floating_point_sqrt          │
 │  ● floating_point_cmp                                     │
 └─────────────────────────────────────────────────────────┘
+
+<img width="1089" height="467" alt="image" src="https://github.com/user-attachments/assets/969f5c38-e0db-48a9-81a5-2694845cd3b9" />
+
 ```
 
 ### FSM States
